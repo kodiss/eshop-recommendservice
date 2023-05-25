@@ -58,7 +58,7 @@ spec:
             /kaniko/executor \\
             --git branch=main \\
             --context=git://$USERNAME:$GIT_TOKEN@github.com/$USERNAME/eshop-recommendservice.git \\
-            --destination=100462131013.dkr.ecr.us-east-1.amazonaws.com/eshop-recommentservice:latest
+            --destination=100462131013.dkr.ecr.us-east-1.amazonaws.com/eshop-recommendservice:latest
             '''
           }
         }
